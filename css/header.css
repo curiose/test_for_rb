@@ -1,0 +1,47 @@
+.header__container {
+   padding-top: 12px;
+}
+
+.header__container-logo {
+   display: flex;
+}
+
+.header-link {
+   text-decoration: none;
+   color: var(--black);
+}
+
+.header__logo-link {
+   margin-right: 24px;
+   display: block;
+   padding-top: 10px;
+}
+
+.bi-geo-alt-fill {
+   color: #e1e1e1;
+}
+
+.header__logo-text {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 21px; 
+   margin-left: 7px;
+   color: #868686;
+}
+
+.header__logo-text--bold {
+   color: var(--dark);
+}
+
+.header-link__whts {
+   margin-right: 11px;
+}
+
+.header__btn {
+   font-size: 14px;
+   background-color: var(--green-btn);
+   color: var(--white);
+   padding: 11px 24px;
+   border-radius: 50px;
+   margin-left: 35px;
+}

@@ -1,0 +1,35 @@
+.about {
+   background-color: #f8fbfa;
+   background-image: url(/img/about.jpg); 
+   min-height: 532px;
+   background-repeat: no-repeat;
+   background-position-x: 108%;
+   margin-bottom: 100px;
+}
+
+.about__container-row {
+   flex-wrap: nowrap;
+}
+
+.about__text {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.about__text-title {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 47px;
+   color: var(--dark);
+   width: 365px;
+   margin-bottom: 14px;
+   margin-top: 144px;
+}
+
+.about__text-descr {
+   font-size: 15px;
+   line-height: 24px;
+   width: 367px;
+}

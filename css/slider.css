@@ -1,0 +1,118 @@
+
+.slider {
+   padding-bottom: 160px;
+}
+.slider-img {
+   position: relative;
+   background-image: url("../img/swiper1.jpg");
+   height: 440px;
+   background-repeat: no-repeat;
+   background-position: right;
+}
+
+.slider-upper {
+   content: "";
+   background-image: url("../img/Rectangle 33.png");
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 10;
+   background-repeat: no-repeat;
+   height: 100%;
+   background-size: cover;
+   width: 62%;
+}
+
+.slider__descr {
+   display: flex;
+   flex-direction: column;
+   padding-top: 54px;
+   padding-left: 63px;
+}
+
+.slider__descr-title {
+   font-weight: 700;
+   font-size: 38px;
+   text-transform: uppercase;
+}
+
+.slider__descr-subtitle {
+   font-weight: 400;
+   font-size: 22px;
+   margin-bottom: 16px;
+   padding-bottom: 0;
+}
+
+.slider__descr-list {
+   margin-bottom: 33px;
+   padding: 0;
+   padding-left: 10px;
+}
+
+.slider__descr-item {
+   color: #1fa181;
+   line-height: 30px;
+   font-size: 16px;
+}
+
+.slider__descr-item span {
+   color: var(--dark);
+   font-weight: 400;
+   font-size: 16px;
+}
+
+.price-new {
+   font-weight: 400;
+   font-size: 20px;
+   color: var(--dark);
+   margin-right: 16px;
+   display: inline-block;
+   margin-bottom: 26px;
+}
+
+.price-old {
+   display: inline-block;
+   margin-left: 16px;
+   text-decoration-line: line-through;
+   font-weight: 400;
+   font-size: 16px;
+   color: #868686;
+}
+
+.btn-enroll {
+   color: var(--white);
+   background-color: var(--green-btn);
+   padding: 11px 58px;
+   margin-right: 14px;
+   margin-bottom: 56px;
+}
+
+.btn-more {
+   border: 1px solid var(--green-btn);
+   padding: 11px 58px;
+   color: var(--green-btn);
+   margin-bottom: 56px;
+}
+
+.carousel-control-prev {
+   z-index: 100;
+   bottom: -70px;
+   align-items: flex-end;
+   left: 500px;
+   color: #E1E1E1;
+}
+
+.carousel-control-next {
+   z-index: 100;
+   bottom: -70px;
+   align-items: flex-end;
+   left: 650px;
+}
+
+.carousel-control-prev-icon {
+   background-image: url("/img/arrow-left.svg");
+}
+
+.carousel-control-next-icon {
+   background-image: url("/img/arrow-right.svg");
+}

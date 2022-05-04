@@ -1,0 +1,22 @@
+@import "../fonts/PTSansCaption-Bold.ttf";
+@import "../fonts/PTSansCaption-Regular.ttf";
+@import "header.css";
+@import "vars.css";
+@import "nav.css";
+@import "about.css";
+@import "slider.css";
+@import "footer.css";
+
+* {
+   font-family: 'PT Sans Caption', sans-serif;
+   /* background-color: aqua; */
+}
+
+.container {
+   max-width: 1306px;
+}
+
+.btn {
+  border-radius: 50px;
+}
+

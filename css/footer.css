@@ -1,0 +1,17 @@
+.footer {
+   background-color: #08664f;
+   padding: 58px 0;
+}
+
+.footer__media {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.footer__media-link {
+   margin-right: 15px;
+}
+
+.footer__nav {
+   justify-content: center;
+}

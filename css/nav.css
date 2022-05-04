@@ -1,0 +1,14 @@
+.nav-section {
+   background-color: var(--green);
+}
+
+.nav-link {
+   color: var(--white);
+   font-size: 16px;
+   padding-right: 30px;
+   padding-left: 0;
+}
+
+.nav-link:focus, .nav-link:hover {
+   color: var(--dark);
+}
